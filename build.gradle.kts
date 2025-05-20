@@ -27,7 +27,6 @@ tasks.withType<JavaCompile> {
 val copyJar by tasks.registering(Copy::class) {
     dependsOn(tasks.withType<ShadowJar>())
     from(tasks.shadowJar.get().archiveFile)
-//    into("C:/Users/isaac/Desktop/Dev Servers/1.21.5/Rollerite-interview/plugins")
     into("/artifacts/")
     rename { "mini-essentials.jar" }
 }
