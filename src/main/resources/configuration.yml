@@ -1,0 +1,8 @@
+# General plugin options #
+options:
+  # For developers - don't enable it if you want a clean console #
+  debug: false
+
+# Tpa System options #
+tpa-system:
+  expiration-seconds: 10 # in seconds

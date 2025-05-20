@@ -1,0 +1,32 @@
+# Toggle and configure commands in this file #
+commands:
+  gamemode:
+    # Should the command be enabled? #
+    enabled: true
+    # The permission that the player must have to execute this command #
+    # Leave empty to allow everyone to execute it #
+    permission: 'mini_essentials.gamemode'
+  god:
+    enabled: true
+    permission: 'mini_essentials.god_mode'
+  open_inv:
+    enabled: true
+    permission: 'mini_essentials.open_inv'
+  enderchest:
+    enabled: true
+    permission: 'mini_essentials.enderchest'
+  fix:
+    enabled: true
+    permission: 'mini_essentials.fix'
+  tpa:
+    enabled: true
+    permission: 'mini_essentials.tpa'
+  tpaccept:
+    enabled: true
+    permission: ''
+  tpdeny:
+    enabled: true
+    permission: ''
+  trash:
+    enabled: true
+    permission: ''

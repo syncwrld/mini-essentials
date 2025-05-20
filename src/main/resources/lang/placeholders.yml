@@ -1,0 +1,11 @@
+# Gamemode placeholders #
+gamemode:
+  creative: 'creative'
+  survival: 'survival'
+  adventure: 'adventure'
+  spectator: 'spectator'
+
+# State placeholders #
+states:
+  enabled: 'enabled'
+  disabled: 'disabled'

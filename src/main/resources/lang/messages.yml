@@ -1,0 +1,64 @@
+# General messages #
+invalid-player: "&cThe player '$player' is invalid or offline."
+
+# Command messages #
+command-disabled: "&cThis command is disabled."
+only-players-execution: "&cThis command is restricted to only in-game usage."
+insufficient-permissions: "&cYou can't execute this command."
+
+# Gamemode #
+gamemode-incorrect-usage:
+  - ''
+  - '&4Your command usage is incorrect!'
+  - '&cCorrect usage: &7/gamemode <mode> [player]'
+  - ''
+gamemode-invalid-self-target: "&cPlease provide a player to change the gamemode."
+gamemode-invalid-mode: "&cThe gamemode '$mode' is invalid!"
+gamemode-changed-self: "&aYour gamemode has been changed to &e$mode&a."
+gamemode-changed-other: "&a$player's gamemode has been changed to &e$mode&a."
+
+# Fix tool #
+fix-tool-requirement: '&cPlease hold a item to repair.'
+fix-tool-not-damaged: '&cThe held tool is not broken or damaged.'
+fix-tool-repaired: '&aThe held item has been totally repaired.'
+
+# God mode #
+god-enabled: "&aGod mode enabled."
+god-disabled: "&cGod mode disabled"
+
+# Tpa System #
+tpa-incorrect-usage:
+  - ""
+  - "&4Your command usage is incorrect!"
+  - "&cCorrect usage: &7/tpa <player>"
+  - ""
+tpa-request-self: "&cYou can't request a teleport to yourself."
+tpa-request-delay: "&cWait a minute to request another teleport request to $target."
+tpa-request-sent: "&eTeleport request sent to $target."
+tpa-request-received:
+  - ""
+  - "&eNew teleport request received!"
+  - " &eRequester: &f$requester"
+  - " &7/tpaccept $requester &a(to accept)"
+  - " &7/tpdeny $requester &c(to deny)"
+  - ""
+tpa-request-not-found: "&cYou haven't received any teleport request from $requester."
+tpa-request-already-expired: "&cThe teleport request from $requester has expired a few moments ago."
+tpa-request-expired: "&cYour teleport request to $target expired."
+tpa-request-accepted-sender: "&eTeleport request accepted, teleporting to $target..."
+tpa-request-accepted-target: "&aTeleport request from $requester accepted!"
+tpa-request-accepted-all: "&a$amount teleport requests accepted."
+tpa-request-denied-sender: "&cYour teleport request to $target has been denied."
+tpa-request-denied-target: "&cDenied teleport request from $requester."
+tpa-request-denied-all: "&eYou denied &c$amount &eteleport requests."
+tpa-requests-no-pending: "&cNo pending requests found."
+tp-deny-incorrect-usage:
+  - ""
+  - "&4Your command usage is incorrect!"
+  - "&cCorrect usage: &7/tpdeny <player/all>"
+  - ""
+tp-accept-incorrect-usage:
+  - ""
+  - "&4Your command usage is incorrect!"
+  - "&cCorrect usage: &7/tpaccept <player/all>"
+  - ""

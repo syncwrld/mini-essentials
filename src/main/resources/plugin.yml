@@ -1,0 +1,37 @@
+main: me.syncwrld.interview.miniessentials.MiniEssentialsPlugin
+name: mini-essentials
+version: 1.0
+author: syncwrld
+api-version: 1.21
+
+commands:
+  enderchest:
+    aliases:
+      - ec
+      - endc
+  fix:
+    aliases:
+      - repair
+      - rr
+  gamemode:
+    aliases:
+      - gm
+  god:
+    aliases:
+      - gamemode
+  open_inv:
+    aliases:
+      - invsee
+      - inv
+  tpaccept:
+    aliases:
+      - tpac
+  tpdeny:
+    aliases:
+      - tpad
+  tpa:
+    aliases:
+      - tpar
+  trash:
+    aliases:
+      - garbage
